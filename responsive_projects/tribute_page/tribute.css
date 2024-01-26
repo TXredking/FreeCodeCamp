@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+#main {
+    background-color: #eee;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#quotes_list, #img_list {
+    list-style-type: none;
+}
+
+li {
+    margin: 16px 0;
+}
+
+#img_list > li {
+    line-height: 5;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
